@@ -1,0 +1,12 @@
+@import '@styles/variable.module.scss';
+@import '@styles/mixin.module.scss';
+.btn{
+    color: $color-text;
+    background-color: $color-background--button;
+    border: 5px;
+    width: 107px;
+    height: 44px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

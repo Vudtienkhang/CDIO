@@ -1,0 +1,43 @@
+@import '@styles/variable.module.scss';
+.containerHeader{
+    background-color: $background-header;
+    height: 108px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    justify-items: center; 
+    width: 130px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.box_image {
+    width: 160px;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.content_menu{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.content_account{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    .sign{
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
