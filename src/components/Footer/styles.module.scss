@@ -1,0 +1,28 @@
+@import '@styles/variable.module.scss';
+
+.containerFooter{
+    padding: 20px;
+    background-color: $background-header;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+p{
+    font-size: 16px;
+}
+
+.iconItem{
+    width: 36px !important;
+    height: 36px !important;
+    margin-left: 20px;
+}
+
+.buttonIcon{
+    gap: 20px;
+}
+
+

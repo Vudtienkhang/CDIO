@@ -1,10 +1,11 @@
 import styles from './styles.module.scss';
 
-function Button({content}) {
-    const {btn} = styles;
+function Button({ children, content, className }) {
+    const { btn } = styles;
     return (
-        <button className={btn}>{content}</button>
+        <button className={`${btn} ${className || ''}`}>
+            {children || content}
+        </button>
     );
 }
-
 export default Button;
